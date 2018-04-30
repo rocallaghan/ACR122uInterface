@@ -1,0 +1,15 @@
+{
+	"plugins": [
+		"transform-es2015-modules-commonjs",
+		"transform-object-rest-spread",
+		"transform-async-to-generator",
+		"transform-class-properties"
+	],
+	"env": {
+		"test": {
+			"presets": [
+				"@ava/transform-test-files"
+			]
+		}
+	}
+}
